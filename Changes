@@ -1,4 +1,7 @@
 
+0.03 - Uploaded to CPAN May 13, 2003
+       Updated VERSION and moved to lib/Paper/Specs.pm
+
 0.02 - Uploaded to CPAN May 13, 2003
        Fixed a few mis-calculations in label_location method
 

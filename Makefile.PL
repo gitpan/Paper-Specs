@@ -5,7 +5,7 @@ WriteMakefile(
 
     'NAME'		=> 'Paper::Specs',
 
-    'VERSION_FROM'	=> 'VERSION', # finds $VERSION
+    'VERSION_FROM'	=> 'lib/Paper/Specs.pm', # finds $VERSION
     'PREREQ_PM'		=> {
     }, 
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005

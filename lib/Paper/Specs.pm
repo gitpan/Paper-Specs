@@ -3,7 +3,7 @@ package Paper::Specs;
 use strict;
 use vars qw($VERSION %brands $brand $units $layout %units $strict);
 
-$VERSION=0.01;
+$VERSION=0.03;
 
 $units="in";
 $layout="normal";

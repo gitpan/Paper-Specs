@@ -10,6 +10,5 @@ lib/Paper/Specs/base/brand.pm
 MANIFEST
 Makefile.PL
 t/01_use.t
-VERSION
 Changes
 README
