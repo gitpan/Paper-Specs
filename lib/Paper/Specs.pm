@@ -3,7 +3,7 @@ package Paper::Specs;
 use strict;
 use vars qw($VERSION %brands $brand $units $layout %units $strict);
 
-$VERSION=0.05;
+$VERSION=0.06;
 
 $units="in";
 $layout="normal";
@@ -191,7 +191,7 @@ sub convert {
 %units = (
     'in' => 1,
     'cm' => 2.54,
-    'mm' => 2540,
+    'mm' => 25.4,
     'pt' => 72,
 );
 
@@ -361,36 +361,29 @@ Inner space between labels - row gutter.
 
 =head1 SEE ALSO
 
-tbd
+Paper::Specs homepage - L<http://perl.jonallen.info/projects/paper-specs>
 
 =head1 BUGS
 
-Please report your bugs and suggestions for improvement to <jlawrenc@cpan.org>.
-For faster service please include "Paper::Specs BUGS" in your message subject.
+Please report your bugs and suggestions for improvement to <jj@jonallen.info>.
 
-=head1 ADDITIONAL HELP
+=head1 AUTHORS
 
-Please send requests for help to <jlawrenc@cpan.org>. For faster service
-please include "Paper::Specs HELP" in your message subject.
+Originally written by Jay Lawrence <jlawrenc@cpan.org>
 
-=head1 ABOUT THE AUTHOR
+From version 0.06 onwards this module is maintained by Jon Allen (JJ) <jj@jonallen.info> / L<http://perl.jonallen.info>
 
-Jay Lawrence <jlawrenc@cpan.org>
-
-=head1 COPYRIGHT
+=head1 COPYRIGHT and LICENCE
 
 Copyright (c)2001-2003 - Jay Lawrence, Infonium Inc. All rights reserved.
+
+Modifications from version 0.06 onwards Copyright (c) 2004 Jon Allen (JJ).
 
 This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 Software distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. This software 
 is not affiliated with the Apache Software Foundation (ASF).
 
-=head1 AVAILABILITY
-
-http://www.infonium.ca/
-
 =cut
-
 
 1;

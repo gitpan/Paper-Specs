@@ -1,3 +1,10 @@
+Changelog for Paper::Specs
+==========================
+
+0.06 - 21 December 2004
+       Maintainer changed to Jon Allen (CPAN ID JONALLEN)
+       Fixed bug in size calculations
+
 0.05 - Uploaded to CPAN May 23, 2003
        Found a bunch of ISO, JIS and guessed at common US/Cdn formats
 
