@@ -1,0 +1,14 @@
+lib/Paper/Specs/Axxxx.pm
+lib/Paper/Specs/Axxxx/5393.pm
+lib/Paper/Specs/standard.pm
+lib/Paper/Specs/standard/letter.pm
+lib/Paper/Specs/standard/legal.pm
+lib/Paper/Specs.pm
+lib/Paper/Specs/base/label.pm
+lib/Paper/Specs/base/sheet.pm
+lib/Paper/Specs/base/brand.pm
+MANIFEST
+Makefile.PL
+t/01_use.t
+VERSION
+
