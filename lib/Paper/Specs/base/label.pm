@@ -53,11 +53,11 @@ sub label_location {
 
     if ( Paper::Specs->layout eq "pdf" ) {
 
-        return ( $self->sheet_height - $pos_row - $self->label_height, $self->sheet_width - $pos_col - $self->label_width );
+        return ( $pos_col, $self->sheet_height - $pos_row );
 
     }
 
-    return ($pos_row, $pos_col);
+    return ($pos_col, $pos_row);
 
 
 }
@@ -66,9 +66,12 @@ sub label_size {
 
     my $self=shift;
 
-    return ( $self->label_width, $self->label_height );
+    if ( Paper::Specs->layout eq "pdf" ) {
+        return ( $self->label_width, -$self->label_height );
+    } else {
+        return ( $self->label_width, $self->label_height );
+    }
 
 }
-
 
 1;

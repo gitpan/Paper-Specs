@@ -1,0 +1,34 @@
+
+Paper::Specs
+============
+
+A module to provide general purpose access to specifications on paper stock, labels and other
+well known print media.
+
+This module will make it easier for you to:
+
+ - Layout PDF and PostScript documents
+ - Obtain page size information
+ - Support page sizes you didn't know about
+
+It is designed to be simple and easy to use. It does not use any parser or load extensive amounts
+of data into memory. Instead I am taking the approach of DateTime::Timezone where each individual 
+specification is its own class. These classes are loaded as requested by you the developer. :)
+
+STATUS
+======
+
+This is just a draft. I am confonted with a few issues before I can actually flesh out the 
+specifications for a multitude of different forms:
+
+ - a non-technical issue regarding a well known label supplier
+ - the specification storage format may change so I don't want to do a lot
+   of unnecessary coding at this pont
+ - I am presenting this code along with a few other modules at YAPC::Canada which is
+   two days from now and I need to get ready
+
+Please send your feedback good or bad to jlawrenc@cpan.org
+
+Thanks!
+
+

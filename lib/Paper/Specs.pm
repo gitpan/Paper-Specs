@@ -289,6 +289,10 @@ These methods apply forms of type "sheet" and all that are derived from it. (all
 
 =over 4
 
+=item ($h, $w) = $form->sheet_size
+
+Returns the height and width of your sheet.
+
 =item $size = $form->sheet_width
 
 Width of the stock
