@@ -3,7 +3,7 @@ package Paper::Specs;
 use strict;
 use vars qw($VERSION %brands $brand $units $layout %units $strict);
 
-$VERSION=0.04;
+$VERSION=0.05;
 
 $units="in";
 $layout="normal";
@@ -17,9 +17,9 @@ Paper::Specs - Size and layout information for paper stock, forms, and labels.
 =head1 SYNOPSIS
 
  use Paper::Specs units => "cm";
- my $form = Paper::Specs->find( brand => "Axxxx", code => "1234");
+ my $form = Paper::Specs->find( brand => "Avery", code => "1234");
 
- use Paper::Specs units => "cm", brand => "Axxxx";
+ use Paper::Specs units => "cm", brand => "Avery";
  my $form = Paper::Specs->find( code => "1234");
 
  # location of first label on sheet
@@ -139,14 +139,16 @@ sub find {
     'Agipa'    => 1,
     'Alpi'    => 1,
     'Ascom'    => 1,
-    'Axxxx'    => 1,
+    'Avery'    => 1,
     'DataBecker'    => 1,
     'Ednet'    => 1,
     'Epson'    => 1,
     'Great Gizmos'    => 1,
+	'Herlitz'  => 1,
     'Herma'    => 1,
     'Imation-SoniX'    => 1,
     'LeLabel'    => 1,
+	'Leitz'      => 1,
     'Memorex'    => 1,
     'Meritline'    => 1,
     'Neato'    => 1,

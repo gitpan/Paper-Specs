@@ -1,12 +1,12 @@
-package Paper::Specs::standard::letter;
+package Paper::Specs::standard::no7_envelope;
 use strict;
 use base qw(Paper::Specs::base::sheet);
 
 sub specs {
 
     {
-            sheet_width  => 8.5,
-            sheet_height => 11,
+            sheet_width  => 3.75,
+            sheet_height => 6.75,
             units  => 'in',
             source => 'educated guess',
     }

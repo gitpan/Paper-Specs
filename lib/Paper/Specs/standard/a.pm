@@ -1,4 +1,4 @@
-package Paper::Specs::standard::letter;
+package Paper::Specs::standard::a;
 use strict;
 use base qw(Paper::Specs::base::sheet);
 

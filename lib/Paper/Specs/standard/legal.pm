@@ -4,12 +4,14 @@ use base qw(Paper::Specs::base::sheet);
 
 sub specs {
 
-	{
-		X => 8.5,
-		Y => 14,
-		units => 'in',
-	}
+    {
+            sheet_width  => 8.5,
+            sheet_height => 14,
+            units  => 'in',
+            source => 'educated guess',
+    }
 
 }
 
 1;
+
