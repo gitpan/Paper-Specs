@@ -3,7 +3,7 @@ package Paper::Specs;
 use strict;
 use vars qw($VERSION %brands $brand $units $layout %units $strict);
 
-$VERSION=0.03;
+$VERSION=0.04;
 
 $units="in";
 $layout="normal";
@@ -41,11 +41,6 @@ firm up quickly.
 
 If this module does not deliver what you are looking for then you
 are encouraged to contact the author and voice your needs!
-
-LABELS for well known company "A" will not be supported due
-to non-technical reasons. I am trying to sort this matter out as I type.
-I hope that "A" will pull its head out of its "A" hole and let me
-use their specs in this code.
 
 OTHER LABELS - I know about the Labels.xml file which is part of OpenOffice
 but have not figured out how it is encoded. I have the gLabels specifications

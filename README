@@ -21,11 +21,8 @@ STATUS
 This is just a draft. I am confonted with a few issues before I can actually flesh out the 
 specifications for a multitude of different forms:
 
- - a non-technical issue regarding a well known label supplier
  - the specification storage format may change so I don't want to do a lot
    of unnecessary coding at this pont
- - I am presenting this code along with a few other modules at YAPC::Canada which is
-   two days from now and I need to get ready
 
 Please send your feedback good or bad to jlawrenc@cpan.org
 
