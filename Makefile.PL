@@ -10,6 +10,6 @@ WriteMakefile(
     }, 
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'lib/Paper/Specs.pm', # retrieve abstract from module
-       AUTHOR     => 'Jay Lawrence <jlawrenc@cpan.org>') : ()),
+       AUTHOR     => 'Jon Allen <jj@jonallen.info>') : ()),
 
 );

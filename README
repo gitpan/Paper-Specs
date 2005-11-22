@@ -24,8 +24,7 @@ specifications for a multitude of different forms:
  - the specification storage format may change so I don't want to do a lot
    of unnecessary coding at this pont
 
-Please send your feedback good or bad to jlawrenc@cpan.org
+Paper::Specs was originally written by Jay Lawrence and is now maintained by Jon Allen (JJ).
 
-Thanks!
-
+Please send any feedback to jj@jonallen.info
 

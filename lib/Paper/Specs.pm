@@ -3,7 +3,7 @@ package Paper::Specs;
 use strict;
 use vars qw($VERSION %brands $brand $units $layout %units $strict);
 
-$VERSION=0.06;
+$VERSION=0.07;
 
 $units="in";
 $layout="normal";
@@ -134,29 +134,30 @@ sub find {
 # Nice to snoop the lib for all installed Paper modules
 # next iteration of code, this is good enough for now
 %brands=(
-    'standard' => 1,
-    'APLI'    => 1,
-    'Agipa'    => 1,
-    'Alpi'    => 1,
-    'Ascom'    => 1,
-    'Avery'    => 1,
-    'DataBecker'    => 1,
-    'Ednet'    => 1,
-    'Epson'    => 1,
-    'Great Gizmos'    => 1,
-	'Herlitz'  => 1,
-    'Herma'    => 1,
-    'Imation-SoniX'    => 1,
-    'LeLabel'    => 1,
-	'Leitz'      => 1,
-    'Memorex'    => 1,
-    'Meritline'    => 1,
-    'Neato'    => 1,
-    'Sigel'    => 1,
-    'Southworth'    => 1,
-    'Stomper'    => 1,
-    'Zweckform'    => 1,
-    'unknown'      => 1,
+    'standard'      => 1,
+    #'APLI'          => 1,
+    #'Agipa'         => 1,
+    #'Alpi'          => 1,
+    #'Ascom'         => 1,
+    'Avery'         => 1,
+    #'DataBecker'    => 1,
+    #'Ednet'         => 1,
+    #'Epson'         => 1,
+    #'Great Gizmos'  => 1,
+    #'Herlitz'       => 1,
+    #'Herma'         => 1,
+    #'Imation-SoniX' => 1,
+    #'LeLabel'       => 1,
+    #'Leitz'         => 1,
+    #'Memorex'       => 1,
+    #'Meritline'     => 1,
+    #'Neato'         => 1,
+    #'Sigel'         => 1,
+    #'Southworth'    => 1,
+    #'Stomper'       => 1,
+    #'Zweckform'     => 1,
+    #'unknown'       => 1,
+    'photo'         => 1,
 );
 
 =item @brands = Paper::Specs->brands

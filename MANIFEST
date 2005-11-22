@@ -269,3 +269,26 @@ lib/Paper/Specs/standard/sra3.pm
 lib/Paper/Specs/standard/sra4.pm
 lib/Paper/Specs/standard/tabloid.pm
 t/01_use.t
+lib/Paper/Specs/photo/10x12.pm
+lib/Paper/Specs/photo/10x15.pm
+lib/Paper/Specs/photo/10x8.pm
+lib/Paper/Specs/photo/12x10.pm
+lib/Paper/Specs/photo/12x8.pm
+lib/Paper/Specs/photo/15x10.pm
+lib/Paper/Specs/photo/16x20.pm
+lib/Paper/Specs/photo/20x16.pm
+lib/Paper/Specs/photo/20x30.pm
+lib/Paper/Specs/photo/30x20.pm
+lib/Paper/Specs/photo/30x40.pm
+lib/Paper/Specs/photo/40x30.pm
+lib/Paper/Specs/photo/4x6.pm
+lib/Paper/Specs/photo/5x7.pm
+lib/Paper/Specs/photo/6x4.pm
+lib/Paper/Specs/photo/6x8.pm
+lib/Paper/Specs/photo/6x9.pm
+lib/Paper/Specs/photo/7x5.pm
+lib/Paper/Specs/photo/8x10.pm
+lib/Paper/Specs/photo/8x12.pm
+lib/Paper/Specs/photo/8x6.pm
+lib/Paper/Specs/photo/9x6.pm
+META.yml                                 Module meta-data (added by MakeMaker)
