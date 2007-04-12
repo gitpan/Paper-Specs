@@ -1,14 +1,15 @@
 
 package Paper::Specs;
 use strict;
-use vars qw($VERSION %brands $brand $units $layout %units $strict);
+use vars qw($VERSION %brands $brand $units $layout %units $strict $debug);
 
-$VERSION=0.09;
+$VERSION='0.10';
 
 $units  = 'in';
 $layout = 'normal';
 $brand  = '';
 $strict = 1;
+$debug  = 0;
 
 =head1 NAME
 
@@ -98,15 +99,17 @@ sub find {
     my $brand = $opts{'brand'} || $brand;
     my $code  = $opts{'code'}; 
 
-    die 'We need a code or a brand to search for\n' unless $code || $brand;
+    die "We need a code or a brand to search for\n" unless $code || $brand;
 
     my @found=();
     foreach my $brand ( ($brand || $self->brands) ) {
 
-        my $sclass='${class}::${brand}';
-        eval 'use $sclass';
+        my $sclass = "${class}::${brand}";
+        eval "use $sclass";
         # skip ones that do not load - lame but effective for now
-        warn $@ if $@;
+        if ($Paper::Specs::debug) {
+          warn $@ if $@;
+        }
         next if $@;
 
         push @found, $sclass->find( $code );

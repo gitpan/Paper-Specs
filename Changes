@@ -1,6 +1,9 @@
 Changelog for Paper::Specs
 ==========================
 
+0.10 - 10 April 2007
+       Fixed bug introduced in 0.08
+
 0.09 - 09 April 2007
        Fixed bug which prevented listing photo paper sizes
 

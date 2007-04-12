@@ -3,7 +3,7 @@ package Paper::Specs::base::brand;
 use strict;
 
 use vars qw($VERSION);
-$VERSION=0.01;
+$VERSION=0.02;
 
 =head1 Paper::base::brand
 
@@ -26,7 +26,10 @@ sub find {
 
     eval "use ${self}::$code";
     return "${self}::$code"->new unless $@;
-    warn $@;
+    
+    if ($Paper::Specs::debug) {
+      warn $@;
+    }
 
     return ();
 
@@ -39,7 +42,7 @@ sub find {
 Returnes a normalized code name for consistent searching.
 
  - strip leading zeros from the code name
- - strip leading spacesk
+ - strip leading spaces
  - switch to all lower case
  - switch spaces to "_"
 
