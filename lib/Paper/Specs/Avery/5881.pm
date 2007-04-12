@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5881",
-        description   => "Color Laser Business Cards",
+        code          => '5881',
+        description   => 'Color Laser Business Cards',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.5,
         margin_bottom => 0.75,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

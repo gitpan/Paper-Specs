@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "2181_1",
-        description   => "Mini-Sheets Filing Labels",
+        code          => '2181_1',
+        description   => 'Mini-Sheets Filing Labels',
 
         sheet_width   => 4.25,
         sheet_height  => 10,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.40625,
         margin_bottom => 5.375,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

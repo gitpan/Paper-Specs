@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5364_1",
-        description   => "Laminated Rotary Cards",
+        code          => '5364_1',
+        description   => 'Laminated Rotary Cards',
 
         sheet_width   => 8.5625,
         sheet_height  => 11.0207,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.375,
         margin_bottom => 0.8125,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

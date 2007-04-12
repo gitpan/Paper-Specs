@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8931_5",
-        description   => "CD/DVD Labels (spines)",
+        code          => '8931_5',
+        description   => 'CD/DVD Labels (spines)',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 7.318,
         margin_bottom => 0.733,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

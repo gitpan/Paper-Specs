@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "6490",
-        description   => "Removable Labels - 3 1/2" Diskette",
+        code          => '6490',
+        description   => 'Removable Labels - 3 1/2" Diskette',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.125,
         margin_bottom => 0.5,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

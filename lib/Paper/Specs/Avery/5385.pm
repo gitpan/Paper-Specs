@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5385",
-        description   => "Rotary Cards - Small",
+        code          => '5385',
+        description   => 'Rotary Cards - Small',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.25,
         margin_bottom => 1.1667,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

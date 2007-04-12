@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8931_3",
-        description   => "CD/DVD Labels (face)",
+        code          => '8931_3',
+        description   => 'CD/DVD Labels (face)',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.9375,
         margin_bottom => 0.6875,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

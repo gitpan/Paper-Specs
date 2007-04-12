@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5364_2",
-        description   => "Laminated Rotary Card - Single Card",
+        code          => '5364_2',
+        description   => 'Laminated Rotary Card - Single Card',
 
         sheet_width   => 8.5625,
         sheet_height  => 3.6875,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.375,
         margin_bottom => 0.8125,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

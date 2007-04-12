@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5664",
-        description   => "Clear Mailing Labels",
+        code          => '5664',
+        description   => 'Clear Mailing Labels',
 
         sheet_width   => 8.5,
         sheet_height  => 10.9996,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.083,
         margin_bottom => 0.5,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

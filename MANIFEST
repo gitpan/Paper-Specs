@@ -268,7 +268,7 @@ lib/Paper/Specs/standard/sra2.pm
 lib/Paper/Specs/standard/sra3.pm
 lib/Paper/Specs/standard/sra4.pm
 lib/Paper/Specs/standard/tabloid.pm
-t/01_use.t
+lib/Paper/Specs/photo.pm
 lib/Paper/Specs/photo/10x12.pm
 lib/Paper/Specs/photo/10x15.pm
 lib/Paper/Specs/photo/10x8.pm
@@ -292,3 +292,6 @@ lib/Paper/Specs/photo/8x12.pm
 lib/Paper/Specs/photo/8x6.pm
 lib/Paper/Specs/photo/9x6.pm
 META.yml                                 Module meta-data (added by MakeMaker)
+t/01_use.t
+t/90_pod.t
+t/91_podcover.t

@@ -10,7 +10,7 @@ sub new {
     bless \$class, $class unless ref($class);
 }
 
-sub type { return "sheet" }
+sub type { return 'sheet' }
 
 sub sheet_width  { Paper::Specs::convert ($_[0]->specs->{'sheet_width'},  $_[0]->specs->{'units'}) }
 sub sheet_height { Paper::Specs::convert ($_[0]->specs->{'sheet_height'}, $_[0]->specs->{'units'}) }

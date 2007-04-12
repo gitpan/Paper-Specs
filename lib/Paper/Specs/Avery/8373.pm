@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8373",
-        description   => "Glossy Photo Quality Business Cards",
+        code          => '8373',
+        description   => 'Glossy Photo Quality Business Cards',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.5,
         margin_bottom => 0.75,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

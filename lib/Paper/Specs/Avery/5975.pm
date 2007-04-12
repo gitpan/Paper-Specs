@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5975",
-        description   => "Fluorescent Labels - Full Sheet Assorted",
+        code          => '5975',
+        description   => 'Fluorescent Labels - Full Sheet Assorted',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0,
         margin_bottom => 0,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

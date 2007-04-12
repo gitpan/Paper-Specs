@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5395",
-        description   => "Name Badge Labels - White",
+        code          => '5395',
+        description   => 'Name Badge Labels - White',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.687,
         margin_bottom => 0.584,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

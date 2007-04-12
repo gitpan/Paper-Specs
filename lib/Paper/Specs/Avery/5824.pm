@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5824",
-        description   => "CD Labels",
+        code          => '5824',
+        description   => 'CD Labels',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 2,
         margin_bottom => 0.5,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

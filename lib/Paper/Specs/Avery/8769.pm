@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8769",
-        description   => "Glossy Photo Quality Labels",
+        code          => '8769',
+        description   => 'Glossy Photo Quality Labels',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.375,
         margin_bottom => 1.125,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

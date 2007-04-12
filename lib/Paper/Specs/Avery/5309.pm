@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5309",
-        description   => "Tent Card - Large",
+        code          => '5309',
+        description   => 'Tent Card - Large',
 
         sheet_width   => 11,
         sheet_height  => 8.5,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.5,
         margin_bottom => 1.25,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

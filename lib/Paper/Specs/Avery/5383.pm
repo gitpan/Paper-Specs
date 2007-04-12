@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5383",
-        description   => "Name Tag Kit - 2 1/4" x 3 1/2"",
+        code          => '5383',
+        description   => 'Name Tag Kit - 2 1/4" x 3 1/2"',
 
         sheet_width   => 8.5,
         sheet_height  => 11.001,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.75,
         margin_bottom => 1.0625,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8931_4",
-        description   => "CD/DVD Jewel Case Insert (spines)",
+        code          => '8931_4',
+        description   => 'CD/DVD Jewel Case Insert (spines)',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.3125,
         margin_bottom => 5.75,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

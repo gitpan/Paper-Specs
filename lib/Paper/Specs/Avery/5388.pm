@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5388",
-        description   => "Index Cards",
+        code          => '5388',
+        description   => 'Index Cards',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.75,
         margin_bottom => 1,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

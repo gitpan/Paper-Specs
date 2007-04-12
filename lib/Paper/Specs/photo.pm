@@ -1,5 +1,5 @@
 
-package Paper::Specs::standard;
+package Paper::Specs::photo;
 use strict;
 use base qw(Paper::Specs::base::brand);
 
@@ -12,8 +12,8 @@ Standard / well known paper formats
 sub specs {
 
     return {
-        name_short => 'standard',
-        name_long  => 'Standard paper sizes',
+        name_short => "photo",
+        name_long  => "Standard photo paper sizes",
     };
 
 }

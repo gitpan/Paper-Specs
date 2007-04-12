@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5925_2",
-        description   => "Zip Disk Labels (top spine)",
+        code          => '5925_2',
+        description   => 'Zip Disk Labels (top spine)',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 2.375,
         margin_bottom => 1.188,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

@@ -12,8 +12,8 @@ Information about labels and card forms that Avery Dennison
 sub specs {
 
     return {
-        name_short => "Avery",
-        name_long  => "Avery-Dennison",
+        name_short => 'Avery',
+        name_long  => 'Avery-Dennison',
     };
 
 }

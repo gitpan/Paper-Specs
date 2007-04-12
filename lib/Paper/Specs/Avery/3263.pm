@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "3263",
-        description   => "Postcards",
+        code          => '3263',
+        description   => 'Postcards',
 
         sheet_width   => 11,
         sheet_height  => 8.5,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0,
         margin_bottom => 0,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

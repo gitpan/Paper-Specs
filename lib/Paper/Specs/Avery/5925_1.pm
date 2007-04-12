@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5925_1",
-        description   => "Zip Disk Labels (face)",
+        code          => '5925_1',
+        description   => 'Zip Disk Labels (face)',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.27,
         margin_bottom => 1.719,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

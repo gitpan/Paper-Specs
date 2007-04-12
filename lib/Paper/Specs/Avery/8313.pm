@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8313",
-        description   => "Glossy Photo Quality 4" x 6" Card",
+        code          => '8313',
+        description   => 'Glossy Photo Quality 4" x 6" Card',
 
         sheet_width   => 6,
         sheet_height  => 4,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0,
         margin_bottom => 0,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

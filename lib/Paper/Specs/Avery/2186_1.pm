@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "2186_1",
-        description   => "Mini-Sheets Diskette Labels",
+        code          => '2186_1',
+        description   => 'Mini-Sheets Diskette Labels',
 
         sheet_width   => 4.25,
         sheet_height  => 10,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.75,
         margin_bottom => 5.5,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

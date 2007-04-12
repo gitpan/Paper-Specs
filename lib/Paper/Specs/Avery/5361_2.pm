@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5361_2",
-        description   => "Laminated ID Cards",
+        code          => '5361_2',
+        description   => 'Laminated ID Cards',
 
         sheet_width   => 8.5,
         sheet_height  => 10.9998,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.9375,
         margin_bottom => 0.8333,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8931_2",
-        description   => "CD/DVD Jewel Case Inserts (tray)",
+        code          => '8931_2',
+        description   => 'CD/DVD Jewel Case Inserts (tray)',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.5625,
         margin_bottom => 5.75,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

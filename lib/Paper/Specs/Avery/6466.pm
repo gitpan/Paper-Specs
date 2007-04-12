@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "6466",
-        description   => "Removable ID Labels",
+        code          => '6466',
+        description   => 'Removable ID Labels',
 
         sheet_width   => 8.484,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.539,
         margin_bottom => 0.505,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

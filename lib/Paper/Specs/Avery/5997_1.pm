@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5997_1",
-        description   => "Videotape Face Labels",
+        code          => '5997_1',
+        description   => 'Videotape Face Labels',
 
         sheet_width   => 8.501,
         sheet_height  => 11.0002,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.069,
         margin_bottom => 0.917,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

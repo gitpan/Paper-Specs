@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5997_2",
-        description   => "Videotape Spine Labels",
+        code          => '5997_2',
+        description   => 'Videotape Spine Labels',
 
         sheet_width   => 8.501,
         sheet_height  => 10.999,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 1.344,
         margin_bottom => 0.5,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

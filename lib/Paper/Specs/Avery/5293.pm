@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "5293",
-        description   => "Round Labels",
+        code          => '5293',
+        description   => 'Round Labels',
 
         sheet_width   => 8.501,
         sheet_height  => 10.96,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.438,
         margin_bottom => 0.5,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

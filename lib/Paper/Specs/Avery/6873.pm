@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "6873",
-        description   => "Mailing Labels for Color Printing",
+        code          => '6873',
+        description   => 'Mailing Labels for Color Printing',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.375,
         margin_bottom => 1.125,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

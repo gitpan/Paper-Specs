@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "74650",
-        description   => "Insertable Name Badges - 2 1/4" x 3 1/2"",
+        code          => '74650',
+        description   => 'Insertable Name Badges - 2 1/4" x 3 1/2"',
 
         sheet_width   => 4.25,
         sheet_height  => 10.5003,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.375,
         margin_bottom => 0.6563,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

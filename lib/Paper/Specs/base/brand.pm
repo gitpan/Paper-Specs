@@ -11,7 +11,7 @@ Base class for brand information
 
 =head1
 
-$things = Paper::Brand->find( "1234");
+$things = Paper::Brand->find( '1234');
 
 Returns things that match the supplied code. Typical code name normalization is applied
 
@@ -32,6 +32,7 @@ sub find {
 
 }
 
+=over
 
 =item Class->normalize( code )
 
@@ -41,6 +42,8 @@ Returnes a normalized code name for consistent searching.
  - strip leading spacesk
  - switch to all lower case
  - switch spaces to "_"
+
+=back
 
 =cut
 

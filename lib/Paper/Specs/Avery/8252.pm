@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8252",
-        description   => "Color Optimized Labels",
+        code          => '8252',
+        description   => 'Color Optimized Labels',
 
         sheet_width   => 8.4995,
         sheet_height  => 10.9997,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.156,
         margin_bottom => 0.8333,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

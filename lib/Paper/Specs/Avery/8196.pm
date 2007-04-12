@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "8196",
-        description   => "3 1/2" Diskette Labels",
+        code          => '8196',
+        description   => '3 1/2" Diskette Labels',
 
         sheet_width   => 8.5,
         sheet_height  => 11,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.125,
         margin_bottom => 1.75,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

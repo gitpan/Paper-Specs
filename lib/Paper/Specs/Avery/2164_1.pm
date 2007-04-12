@@ -6,8 +6,8 @@ sub specs {
 
     return {
 
-        code          => "2164_1",
-        description   => "Mini-Sheets Mailing Labels",
+        code          => '2164_1',
+        description   => 'Mini-Sheets Mailing Labels',
 
         sheet_width   => 4.25,
         sheet_height  => 10,
@@ -23,7 +23,7 @@ sub specs {
         margin_right  => 0.125,
         margin_bottom => 5.84375,
 
-        units         => "in",
+        units         => 'in',
 
     };
 

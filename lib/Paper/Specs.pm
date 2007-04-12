@@ -3,12 +3,12 @@ package Paper::Specs;
 use strict;
 use vars qw($VERSION %brands $brand $units $layout %units $strict);
 
-$VERSION=0.07;
+$VERSION=0.09;
 
-$units="in";
-$layout="normal";
-$brand="";
-$strict=1;
+$units  = 'in';
+$layout = 'normal';
+$brand  = '';
+$strict = 1;
 
 =head1 NAME
 
@@ -16,11 +16,11 @@ Paper::Specs - Size and layout information for paper stock, forms, and labels.
 
 =head1 SYNOPSIS
 
- use Paper::Specs units => "cm";
- my $form = Paper::Specs->find( brand => "Avery", code => "1234");
+ use Paper::Specs units => 'cm';
+ my $form = Paper::Specs->find( brand => 'Avery', code => '1234');
 
- use Paper::Specs units => "cm", brand => "Avery";
- my $form = Paper::Specs->find( code => "1234");
+ use Paper::Specs units => 'cm', brand => 'Avery';
+ my $form = Paper::Specs->find( code => '1234');
 
  # location of first label on sheet
  my ($xpos, $ypos) = $form->label_location( 1, 1);
@@ -56,7 +56,7 @@ You can supply any of the methods for this class when it is imported:
 
  use Paper::Specs
     strict => 1,
-    units  => "cm";
+    units  => 'cm';
 
 =cut
 
@@ -98,13 +98,13 @@ sub find {
     my $brand = $opts{'brand'} || $brand;
     my $code  = $opts{'code'}; 
 
-    die "We need a code or a brand to search for\n" unless $code || $brand;
+    die 'We need a code or a brand to search for\n' unless $code || $brand;
 
     my @found=();
     foreach my $brand ( ($brand || $self->brands) ) {
 
-        my $sclass="${class}::${brand}";
-        eval "use $sclass";
+        my $sclass='${class}::${brand}';
+        eval 'use $sclass';
         # skip ones that do not load - lame but effective for now
         warn $@ if $@;
         next if $@;
@@ -120,7 +120,7 @@ sub find {
         }
 
         if (@found) {
-            die "More than one form matches and $self is in strict mode\n";
+            die 'More than one form matches and $self is in strict mode\n';
         } 
 
         return ();
@@ -163,7 +163,7 @@ sub find {
 =item @brands = Paper::Specs->brands
 
 Returns a list or reference to a list of the brands for the paper forms that
-this module is aware of. One brand, "standard" is reserved for well known paper
+this module is aware of. One brand, 'standard' is reserved for well known paper
 formats such as letter, A4, etc.
 
 =cut
@@ -176,14 +176,14 @@ sub brands {
 
 =item $new_value = Paper::Specs->convert( value, units )
 
-Converts "value" which is in "units" to new value which is in Paper::Specs->units units.
+Converts 'value' which is in 'units' to new value which is in Paper::Specs->units units.
 
 =cut
 
 sub convert {
 
     my $value = shift;
-    my $src_units = shift || "in";
+    my $src_units = shift || 'in';
 
     return $value / $units{$src_units} * $units{$units};
 
@@ -199,8 +199,8 @@ sub convert {
 =item $units = Paper::Specs->units( units )
 
 Gets/sets the units that you wish to work with in your code. If you are
-using metric then you might want "mm" or "cm". If you are using empirial
-then you might want "in" or "pt" (points = 1/72 in).
+using metric then you might want 'mm' or 'cm'. If you are using empirial
+then you might want 'in' or 'pt' (points = 1/72 in).
 
 Current units supported are: in, cm, mm, and pt.
 
@@ -218,12 +218,12 @@ sub units {
 
 }
 
-=item Paper::Specs->layout( "normal" | "pdf" )
+=item Paper::Specs->layout( 'normal' | 'pdf' )
 
-This sets the co-ordinate system for some forms such as labels. "normal" puts
-(0,0) at the top left corner. "pdf" puts (0,0) at the lower left corner.
+This sets the co-ordinate system for some forms such as labels. 'normal' puts
+(0,0) at the top left corner. 'pdf' puts (0,0) at the lower left corner.
 
-As well "pdf" calls units("pt"). You can reset this afterwards if you are working
+As well 'pdf' calls units('pt'). You can reset this afterwards if you are working
 in a different unit system.
 
 =cut
@@ -235,9 +235,9 @@ sub layout {
 
     if (@_) {
         $layout = lc shift;
-        $layout = "normal" unless $layout eq "normal" || $layout eq "pdf";
-        if ( $layout eq "pdf" ) {
-            $self->units("pt");
+        $layout = 'normal' unless $layout eq 'normal' || $layout eq 'pdf';
+        if ( $layout eq 'pdf' ) {
+            $self->units('pt');
         }
     }
 
@@ -247,7 +247,7 @@ sub layout {
 
 =item Paper::Specs->strict( 0 | 1 )
 
-Sets the strictness of this module. If it is strict then it will throw exceptions via "die" for things
+Sets the strictness of this module. If it is strict then it will throw exceptions via 'die' for things
 like finding more than one form on a find method.
 
 The default is to be strict.
@@ -274,16 +274,16 @@ actually store any values.
 
 You should test that the object is of the type you are looking for
 
- if ($form->type ne "label") {
+ if ($form->type ne 'label') {
     die "Feed me labels Seymore\n";
  }
 
 Other than that - most forms should be based on a sheet (of paper) but will have
 different methods depending on what they are.
 
-=head1 Paper::Specs::sheet methods / $form->type eq "sheet"
+=head1 Paper::Specs::sheet methods / $form->type eq 'sheet'
 
-These methods apply forms of type "sheet" and all that are derived from it. (all other forms and stock)
+These methods apply forms of type 'sheet' and all that are derived from it. (all other forms and stock)
 
 =over 4
 
@@ -301,9 +301,9 @@ Height of the stock
 
 =back
 
-=head1 Paper::Specs::label methods / $form->type eq "label"
+=head1 Paper::Specs::label methods / $form->type eq 'label'
 
-These methods apply to forms of type "label" and all that are derived from it. 
+These methods apply to forms of type 'label' and all that are derived from it. 
 
 Inherits methods from Paper::Specs::sheet.
 
@@ -378,11 +378,11 @@ From version 0.06 onwards this module is maintained by Jon Allen (JJ) <jj@jonall
 
 Copyright (c)2001-2003 - Jay Lawrence, Infonium Inc. All rights reserved.
 
-Modifications from version 0.06 onwards Copyright (c) 2004 Jon Allen (JJ).
+Modifications from version 0.06 onwards Copyright (c) 2004-2005 Jon Allen (JJ).
 
 This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
-Software distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. This software 
+Software distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. This software 
 is not affiliated with the Apache Software Foundation (ASF).
 
 =cut

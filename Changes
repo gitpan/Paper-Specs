@@ -1,6 +1,14 @@
 Changelog for Paper::Specs
 ==========================
 
+0.09 - 09 April 2007
+       Fixed bug which prevented listing photo paper sizes
+
+0.08 - 09 April 2007
+       Applied patch from Barbie to add module tests and fix RT
+       ticket #9807. Thanks Barbie and apologies for not getting
+       this release out earlier.
+
 0.07 - 19 November 2005
        Added specs for common photo paper sizes
 
